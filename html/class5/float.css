@@ -1,0 +1,32 @@
+.main{
+	background-color: lightblue;
+	width:900px;
+	margin:auto;
+}
+.box{
+	width:300px;
+	float:left;
+	opacity: 0.1;
+}
+.box1{
+	background-color: lightgreen;
+	/*float:left;*/
+	/*opacity:0.1;*/
+	/*float:right;*/
+}
+.box2{
+	background-color: lightyellow;
+	/*float:left;*/
+	/*float:right;*/
+	/*clear:right;*/
+}
+.box3{
+	background-color: sandybrown;
+	/*float:left;*/
+	/*opacity: 0;*/
+	/*float:right;*/
+	/*clear:both;*/
+}
+.box4{
+	clear:both;
+}

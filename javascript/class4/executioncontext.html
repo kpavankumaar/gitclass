@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>execution context</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+
+
+		// Target: going to a movie ?
+		// array of friends 
+		// from list of friends will come to movie few will deny
+		// 
+		console.log(advaith);
+		var pavan ;
+		var shiva = 'didnot watch';
+		var manish = advaith;
+		var advaith = 'watched' ;
+
+		strangerThings()
+		function naruto(){
+			advaith = "watchedmanga"
+			console.log(advaith) // watchedmanga
+		}
+		function lordOfTheRings2(){
+			console.log(manish); // undefined
+			naruto();
+		}
+		function strangerThings(){
+			console.log(advaith);
+			
+			var manish = 'not watched this before'
+			console.log(manish)
+			lordOfTheRings2();
+
+		}
+		
+		// alert('welcome to javascript')
+		console.log(advaith);// watchedmanga
+
+	</script>
+</body>
+</html>

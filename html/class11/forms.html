@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style type="text/css">
+		label{
+			width:200px;
+			display: inline-block;
+		}
+	</style>
+</head>	
+<body>
+	<form method="post">
+		<fieldset> <legend>User information</legend>
+			<label>Username</label><input type="text" name="username" ><br>
+			<label>Password</label><input type="password" name="password" ><br>
+			<label>Male</label><input type="radio" name="gender" ><br>
+			<label>Female</label><input type="radio" name="gender" ><br>
+			<h3>Fruits</h3>
+			<label>Grapes</label><input type="checkbox" name="fruits"><br>
+			<label>Mangoes</label><input type="checkbox" name="fruits"><br>
+			<select>
+				<option>J&K</option>
+				<option selected>Telangana</option>
+				<option>Tamilnadu</option>
+				<option>kerala</option>
+				<optgroup label="northindian">
+					<option>Haryana</option>
+					<option>Punjab</option>	
+				</optgroup>
+				
+			</select><br>
+			<textarea cols="60" rows="20"></textarea>
+		</fieldset>
+	</form>
+</body>
+</html>

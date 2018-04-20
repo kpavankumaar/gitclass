@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var id = 34;
+		var name = 'ravi';
+		console.log('welcome to javascript ' + name);
+		
+		function goToParadise(main, curry ,money){
+			var doYouHaveMoney = money;
+			if(doYouHaveMoney){
+				console.log('get me ' + main + ' with ' + curry);	
+			}else{
+				console.log('i need money');
+			}
+			
+		}
+		var friends = ['ravi','srikanth','sneha ', 'lakshmi','ramesh'];
+
+		name = 'srikanth';
+		var dusterObj = {
+			color:'black',
+			shape:'cuboid'
+
+		}
+		var friendsDetails = [
+								{
+									name:'Pavan',
+									email:'pavan@gmail.com',
+									phonenumber:99999999
+								},
+								{
+									name:'srikanth',
+									email:'srikanth@gmail.com',
+									phonenumber:88888888
+								},
+								{
+									name: 'sneha',
+									email:'sneha@gmail.com',
+									phonenumber:77777777
+								},
+								{
+									name: 'lakshmi',
+									email: 'lakshmi@gmail.com',
+									phonenumber:66666666
+								}
+							];
+		// var i = 10;							
+		// while(i){
+		// 	i = i -1 ;
+		// 	console.log('welcome to javascript ' + name);
+		// }
+		for(var i = friends.length-1 ; i >= 0 ; i = i-1){
+			
+			console.log(friends[i]);
+		}
+		for(var i= friendsDetails.length-1 ; i>=0 ; i= i-1){
+		
+			console.log( friendsDetails[i].name);
+		} 
+		var story = document.getElementsByClassName('story');
+
+	</script>
+</head>
+<body>
+	<button>Hide / show </button>
+	<div id="content">
+		<h3 name="shiva">heading</h3>
+		<p class="story">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p class="story">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+</body>
+</html>

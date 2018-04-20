@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width" name="viewport">
+	<title>px to percentage </title>
+	<style type="text/css">
+		html,body,h1,h2,h4,h3,h5,h6,p,ul,li,ol,blockquote{
+			padding:0px;
+			margin:0px;
+		}
+		div.center {
+			width:70.3125%;/*900px;*/
+			margin:auto;
+			background-color: lightgrey;
+		}
+
+		ul li{
+			list-style-type: none;
+		}
+		body div > div:first-child  div {
+			float:left;
+		}
+		body div > div:first-child ul li {
+			float:left;
+		}
+		body div > div:first-child::after ,body > div:first-child::before, .main::after ,.main::before{
+			content:'';
+			display: block;
+			clear:both;
+		} 
+		.center > div:first-child div:last-child{
+			float:right;
+		}
+		.box {
+			width:33.33333333%;/*300px;*/
+			float:left;
+
+		}
+		.box1{
+			background-color: lightblue;
+		}
+		.box2{
+			background-color: lightgreen;
+
+
+		}
+		.box3{
+			background-color: lightpink;
+		}
+		.box4{
+			width:100%;/*900px;*/
+			background-color: aqua;
+		}
+		/*@media screen and (max-width:1095px){
+			.box1,.box2{
+				width:50%;
+
+			}
+			.box3{
+				width:100%;
+			}
+		}
+		@media screen and (max-width:960px){
+			.box4{
+				display:none;
+			}
+		}
+		@media screen and (max-width:740px){
+			.box1,.box2{
+				width:100%;
+			}
+		}*/
+		@media screen and (orientation:landscape){
+			.box1,.box2{
+				width:50%;
+
+			}
+			.box3{
+				width:100%;
+			}
+		}
+		@media screen and (orientation:portrait){
+			.box1,.box2{
+				width:100%;
+
+			}
+			.box3{
+				width:100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<div>
+			<div>logo</div>
+			<div>
+				<ul>
+					<li><a href="#">Home </a></li>
+					<li><a href="#">About us  </a></li>
+					<li><a href="#">Reasearch and development  </a></li>
+					<li><a href="#">Contact us </a></li>
+				</ul>	
+			</div>
+			
+		</div>
+		<div class="main">
+
+			<div class="box box1">
+				<h3>heading</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>		
+			<div class="box box2">
+				<h3>heading</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>		
+			<div class="box box3">
+				<h3>heading</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>		
+			<div class="box box4">
+				<h3>heading</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>		
+
+		</div>
+	</div>
+</body>
+</html>
